@@ -1,0 +1,63 @@
+{
+    "entradas": {
+        "0": {
+            "texto": "Of Cash and Hash (br.: Serviço a la carte) é um filme curta-metragem estadunidense de 1955, dirigido por Jules White.",
+            "rotulos": [
+                {
+                    "conteudo": "Of Cash and Hash",
+                    "posicao_inicio": "0",
+                    "posicao_fim": "16",
+                    "categoria": "NOME_DE_FILME"
+                },
+                {
+                    "conteudo": "Serviço a la carte",
+                    "posicao_inicio": "23",
+                    "posicao_fim": "41",
+                    "categoria": "NOME_DE_FILME"
+                },
+                {
+                    "conteudo": "1955",
+                    "posicao_inicio": "85",
+                    "posicao_fim": "89",
+                    "categoria": "ANO"
+                },
+                {
+                    "conteudo": "Jules White",
+                    "posicao_inicio": "104",
+                    "posicao_fim": "115",
+                    "categoria": "NOME_DE_DIRETOR"
+                }
+            ]
+        },
+        "1": {
+            "texto": "Eurycea rathbuni é um anfíbio caudado da família Plethodontidae endémica dos Estados Unidos da América.",
+            "rotulos": [
+                {
+                    "conteudo": "Eurycea rathbuni",
+                    "posicao_inicio": "0",
+                    "posicao_fim": "16",
+                    "categoria": "NOME_CIENTIFICO"
+                },
+                {
+                    "conteudo": "Plethodontidae",
+                    "posicao_inicio": "49",
+                    "posicao_fim": "63",
+                    "categoria": "NOME_CIENTIFICO"
+                },
+                {
+                    "conteudo": "Estados Unidos da América",
+                    "posicao_inicio": "77",
+                    "posicao_fim": "102",
+                    "categoria": "PAIS"
+                }                
+            ]
+        }
+    },
+    "categorias": [
+        "ANO",
+        "NOME_CIENTIFICO",
+        "NOME_DE_DIRETOR",
+        "NOME_DE_FILME",
+        "PAIS"
+    ]
+}

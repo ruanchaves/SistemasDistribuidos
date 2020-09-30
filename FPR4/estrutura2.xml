@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <entradas>
+    <entrada_0>
+      <texto>Of Cash and Hash (br.: Serviço a la carte) é um filme curta-metragem estadunidense de 1955, dirigido por Jules White.</texto>
+      <rotulos>
+        <conteudo>Of Cash and Hash</conteudo>
+        <posicao_inicio>0</posicao_inicio>
+        <posicao_fim>16</posicao_fim>
+        <categoria>NOME_DE_FILME</categoria>
+      </rotulos>
+      <rotulos>
+        <conteudo>Serviço a la carte</conteudo>
+        <posicao_inicio>23</posicao_inicio>
+        <posicao_fim>41</posicao_fim>
+        <categoria>NOME_DE_FILME</categoria>
+      </rotulos>
+      <rotulos>
+        <conteudo>1955</conteudo>
+        <posicao_inicio>85</posicao_inicio>
+        <posicao_fim>89</posicao_fim>
+        <categoria>ANO</categoria>
+      </rotulos>
+      <rotulos>
+        <conteudo>Jules White</conteudo>
+        <posicao_inicio>104</posicao_inicio>
+        <posicao_fim>115</posicao_fim>
+        <categoria>NOME_DE_DIRETOR</categoria>
+      </rotulos>
+    </entrada_0>
+    <entrada_1>
+      <texto>Eurycea rathbuni é um anfíbio caudado da família Plethodontidae endémica dos Estados Unidos da América.</texto>
+      <rotulos>
+        <conteudo>Eurycea rathbuni</conteudo>
+        <posicao_inicio>0</posicao_inicio>
+        <posicao_fim>16</posicao_fim>
+        <categoria>NOME_CIENTIFICO</categoria>
+      </rotulos>
+      <rotulos>
+        <conteudo>Plethodontidae</conteudo>
+        <posicao_inicio>49</posicao_inicio>
+        <posicao_fim>63</posicao_fim>
+        <categoria>NOME_CIENTIFICO</categoria>
+      </rotulos>
+      <rotulos>
+        <conteudo>Estados Unidos da América</conteudo>
+        <posicao_inicio>77</posicao_inicio>
+        <posicao_fim>102</posicao_fim>
+        <categoria>PAIS</categoria>
+      </rotulos>
+    </entrada_1>
+  </entradas>
+  <categorias>
+    <categoria>ANO</categoria>
+    <categoria>NOME_CIENTIFICO</categoria>
+    <categoria>NOME_DE_DIRETOR</categoria>
+    <categoria>NOME_DE_FILME</categoria>
+    <categoria>PAIS</categoria>
+  </categorias>
+</root>

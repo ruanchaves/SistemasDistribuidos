@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <lista>
+    <nome>João</nome>
+    <CPF>041999203</CPF>
+    <endereço>
+      <cep>7777777</cep>
+      <número>23</número>
+      <rua>Rua Argélia</rua>
+      <complemento/>
+      <bairro>Pavuna</bairro>
+      <cidade>Rio de Janeiro</cidade>
+      <estado>RJ</estado>
+      <pais>Brasil</pais>
+    </endereço>
+    <produtos_solicitados>
+      <nome>urso de pelucia</nome>
+      <codigo>D59604</codigo>
+      <entregue>true</entregue>
+      <entrega>
+        <enviado_em>
+          <dia>23</dia>
+          <mes>07</mes>
+          <ano>2019</ano>
+        </enviado_em>
+        <recebido_em>
+          <dia>28</dia>
+          <mes>07</mes>
+          <ano>2019</ano>
+        </recebido_em>
+      </entrega>
+    </produtos_solicitados>
+    <produtos_solicitados>
+      <nome>cubo mágico</nome>
+      <codigo>D940592</codigo>
+      <entregue>false</entregue>
+      <entrega>
+        <enviado_em>
+        </enviado_em>
+        <recebido_em>
+        </recebido_em>
+      </entrega>
+    </produtos_solicitados>
+    <produtos_solicitados>
+      <nome>Playstation 4</nome>
+      <codigo>D9429384</codigo>
+      <entregue>false</entregue>
+      <entrega>
+        <enviado_em>
+          <dia>25</dia>
+          <mes>10</mes>
+          <ano>2020</ano>
+        </enviado_em>
+        <recebido_em>
+        </recebido_em>
+      </entrega>
+    </produtos_solicitados>
+  </lista>
+</root>

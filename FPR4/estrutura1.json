@@ -1,0 +1,57 @@
+[
+    {
+        "nome": "João",
+        "CPF": "041999203",
+        "endereço": {
+            "cep": "7777777",
+            "número": "23",
+            "rua": "Rua Argélia",
+            "complemento": null,
+            "bairro": "Pavuna",
+            "cidade": "Rio de Janeiro",
+            "estado": "RJ",
+            "pais": "Brasil"
+        },
+        "produtos_solicitados": [
+            {
+                "nome": "urso de pelucia",
+                "codigo": "D59604",
+                "entregue": true,
+                "entrega": {
+                    "enviado_em": {
+                        "dia": "23",
+                        "mes": "07",
+                        "ano": "2019"
+                    },
+                    "recebido_em": {
+                        "dia": "28",
+                        "mes": "07",
+                        "ano": "2019"
+                    }
+                }
+            },
+            {
+                "nome": "cubo mágico",
+                "codigo": "D940592",
+                "entregue": false,
+                "entrega": {
+                    "enviado_em": null,
+                    "recebido_em": null
+                }
+            },
+            {
+                "nome": "Playstation 4",
+                "codigo": "D9429384",
+                "entregue": false,
+                "entrega": {
+                    "enviado_em": {
+                        "dia": "25",
+                        "mes": "10",
+                        "ano": "2020"
+                    },
+                    "recebido_em": null
+                }
+            }            
+        ]
+    }
+]

@@ -1,0 +1,57 @@
+Campo "json_object[0].nome" no objeto original:  João
+Campo "json_object[0].nome" no objeto alterado:  Maria
+Listagem de propriedades do objeto: 
+ [
+  'nome',
+  'CPF',
+  'endereço.cep',
+  'endereço.número',
+  'endereço.rua',
+  'endereço.complemento',
+  'endereço.bairro',
+  'endereço.cidade',
+  'endereço.estado',
+  'endereço.pais',
+  'produtos_solicitados.0.nome',
+  'produtos_solicitados.0.codigo',
+  'produtos_solicitados.0.entregue',
+  'produtos_solicitados.0.entrega.enviado_em.dia',
+  'produtos_solicitados.0.entrega.enviado_em.mes',
+  'produtos_solicitados.0.entrega.enviado_em.ano',
+  'produtos_solicitados.0.entrega.recebido_em.dia',
+  'produtos_solicitados.0.entrega.recebido_em.mes',
+  'produtos_solicitados.0.entrega.recebido_em.ano',
+  'produtos_solicitados.1.nome',
+  'produtos_solicitados.1.codigo',
+  'produtos_solicitados.1.entregue',
+  'produtos_solicitados.1.entrega.enviado_em',
+  'produtos_solicitados.1.entrega.recebido_em',
+  'produtos_solicitados.2.nome',
+  'produtos_solicitados.2.codigo',
+  'produtos_solicitados.2.entregue',
+  'produtos_solicitados.2.entrega.enviado_em.dia',
+  'produtos_solicitados.2.entrega.enviado_em.mes',
+  'produtos_solicitados.2.entrega.enviado_em.ano',
+  'produtos_solicitados.2.entrega.recebido_em'
+]
+Listagem de valores do objeto: 
+ [
+  'Maria',           '041999203',
+  '0000000',         '23',
+  'Rua Argélia',     null,
+  'Pavuna',          'Rio de Janeiro',
+  'RJ',              'Brasil',
+  'urso de pelucia', 'D59604',
+  true,              '23',
+  '07',              '2019',
+  '28',              '07',
+  '2019',            'cubo mágico',
+  'D940592',         false,
+  null,              null,
+  'Playstation 4',   'D9429384',
+  false,             '25',
+  '10',              '2020',
+  null
+]
+Objeto copiado: 
+ {"nome":"Maria","CPF":"041999203","endereço":{"cep":"0000000","número":"23","rua":"Rua Argélia","complemento":null,"bairro":"Pavuna","cidade":"Rio de Janeiro","estado":"RJ","pais":"Brasil"},"produtos_solicitados":[{"nome":"urso de pelucia","codigo":"D59604","entregue":true,"entrega":{"enviado_em":{"dia":"23","mes":"07","ano":"2019"},"recebido_em":{"dia":"28","mes":"07","ano":"2019"}}},{"nome":"cubo mágico","codigo":"D940592","entregue":false,"entrega":{"enviado_em":null,"recebido_em":null}},{"nome":"Playstation 4","codigo":"D9429384","entregue":false,"entrega":{"enviado_em":{"dia":"25","mes":"10","ano":"2020"},"recebido_em":null}}]}
