@@ -99,3 +99,74 @@ module.exports = ReceitaSchema;
 ```
 
 * **Documentação: a documentação OpenAPI do seu modelo, com interface interativa via Swagger**
+
+```yaml
+swagger: "2.0"
+info:
+  version: "0.0.1"
+  title: Receitas
+host: localhost:10010
+basePath: /app-docs
+schemes:
+  - http
+  - https
+consumes:
+  - application/json
+produces:
+  - application/json
+paths:
+  /:
+    x-swagger-router-controller: receita
+    get:
+      description: Retorna todas as receitas cadastradas no banco de dados.
+      operationId: obter_receita
+      responses:
+        "200":
+          description: Success
+          schema:
+            # a pointer to a definition
+            $ref: "#/definitions/Receita"
+        # responses may fall through to errors
+        default:
+          description: Error
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+    post:
+      description: Adicionar uma nova receita ao banco de dados.
+      operationId: postar_receita
+      parameters:
+        - name: nome
+          in: query
+          description: O nome da receita.
+          required: true
+          type: string
+      responses:
+        "200":
+          description: Success
+          schema:
+            # a pointer to a definition
+            $ref: "#/definitions/Receita"
+        # responses may fall through to errors
+        default:
+          description: Error
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+  /swagger:
+    x-swagger-pipe: swagger_raw
+# complex objects have schema definitions
+definitions:
+  Receita:
+    required:
+      - nome
+    properties:
+      nome:
+        type: string
+      ingredientes:
+        type: object
+  ErrorResponse:
+    required:
+      - message
+    properties:
+      message:
+        type: string
+```
