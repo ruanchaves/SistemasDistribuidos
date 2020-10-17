@@ -126,7 +126,6 @@ paths:
           schema:
             # a pointer to a definition
             $ref: "#/definitions/Receita"
-        # responses may fall through to errors
         default:
           description: Error
           schema:
@@ -153,7 +152,6 @@ paths:
             $ref: "#/definitions/ErrorResponse"
   /swagger:
     x-swagger-pipe: swagger_raw
-# complex objects have schema definitions
 definitions:
   Receita:
     required:
